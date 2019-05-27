@@ -1,0 +1,58 @@
+{
+  "name": "@hackingbeautyllc/react-mic-plus",
+  "version": "3.7.0",
+  "description": "React-Mic with cross-browser WAV file format support.",
+  "main": "lib/index.js",
+  "jsnext:main": "es/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "microphone",
+    "MediaRecorder",
+    "volume meter"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && npm clean-demo",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server",
+    "deploy": "nwb build-react-component && gh-pages -d demo/dist"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "prop-types": "^15.5.10"
+  },
+  "devDependencies": {
+    "material-ui": "^0.19.2",
+    "nwb": "^0.23.0",
+    "nwb-sass": "^0.9.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "gh-pages": "^2.0.1",
+    "react-ga": "^2.2.0"
+  },
+  "author": "Mark Muskardin",
+  "homepage": "https://hackingbeauty.github.io/react-mic",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackingbeauty/react-mic.git"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/hackingbeauty/react-mic/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "license": "SEE LICENCE IN license.txt"
+}
